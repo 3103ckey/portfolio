@@ -288,16 +288,23 @@ body {
   text-decoration: underline;
 }
 
+.usertest_text {
+  margin: 10px 0;
+}
+
 .usertest {
   border-collapse: collapse;
+  background-color: #fff;
 }
 
 .usertest th,
 td {
-  border: solid 1px;
+  border: solid 1px #000;
   padding: 5px;
 }
 
 .usertest th {
-  font-weight: bold;
+  text-align: center;
+  background-color: #9e895a;
+  color: #fff;
 }
