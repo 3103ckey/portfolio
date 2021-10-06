@@ -170,16 +170,32 @@ body {
   text-decoration: underline;
 }
 
-/* task.html */
-
-.task_box {
-  width: 900px;
-  margin: 0 auto;
+.overview{
+  border-right: medium solid #000;
+  margin: 0 20px 20px 0;
 }
 
-.task_box_title {
-  padding: 3% 3% 3% 50px;
-  font-size: x-large;
+.overview_decoration{
+  background-color: #9e895a;
+  color: #fff;
+  text-align: center;
+  padding: 155px 0;
+  width: 200px;
+  margin: 0 27px 0 0;
+}
+
+.overview_txtbox{
+  padding: 0 0 10px 0;
+  line-height: 1.5em;
+}
+
+.overview_txtbox dd{
+  margin: 0 0 15px 0;
+}
+
+.overview_txtbox dt{
+  font-size: large;
+  letter-spacing: 0.2em;
 }
 
 .concept {
@@ -192,7 +208,7 @@ body {
   background-color: #9e895a;
   color: #fff;
   text-align: center;
-  padding: 70px 0 70px;
+  padding: 73px 0;
   width: 200px;
 }
 
