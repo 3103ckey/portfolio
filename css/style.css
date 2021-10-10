@@ -170,12 +170,17 @@ body {
   text-decoration: underline;
 }
 
-.overview{
+.premise {
+  margin: 0 0 15px 0;
+  line-height: 1.3em;
+}
+
+.overview {
   border-right: medium solid #000;
   margin: 0 20px 20px 0;
 }
 
-.overview_decoration{
+.overview_decoration {
   background-color: #9e895a;
   color: #fff;
   text-align: center;
@@ -184,16 +189,16 @@ body {
   margin: 0 27px 0 0;
 }
 
-.overview_txtbox{
+.overview_txtbox {
   padding: 0 0 10px 0;
   line-height: 1.5em;
 }
 
-.overview_txtbox dd{
+.overview_txtbox dd {
   margin: 0 0 15px 0;
 }
 
-.overview_txtbox dt{
+.overview_txtbox dt {
   font-size: large;
   letter-spacing: 0.2em;
 }
