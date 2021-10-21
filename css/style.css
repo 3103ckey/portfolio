@@ -61,7 +61,13 @@ body {
 .profile_text {
   font-weight: bold;
   border-left: medium solid #000;
-  padding: 90px;
+  padding: 50px;
+}
+
+.pr {
+  margin-top: 29px;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
 }
 
 .name_knj {
@@ -75,8 +81,7 @@ body {
 }
 
 .icon {
-  width: 450px;
-  padding: 90px;
+  padding: 25px;
 }
 
 .career {
